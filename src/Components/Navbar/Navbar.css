@@ -50,12 +50,13 @@
 }
 
 .nav-item {
-  height: 80px;
+  height: 60px;
   border-bottom: 2px solid transparent;
 }
 
 .nav-item:hover {
-  border-bottom: 2px solid #f00946;
+  background: #cc1616 !important;
+  text-decoration: none;
 }
 
 .nav-links {
@@ -108,7 +109,7 @@
   }
 
   .nav-links:hover {
-    color: #f00946;
+    color: #f00946 !important;
     transform: scale(1.2);
     transition: all 0.3s ease;
   }
