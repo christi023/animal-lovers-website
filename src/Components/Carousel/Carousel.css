@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&family=Roboto+Condensed:wght@300&display=swap');
+
+/*====================
+        CAROUSEL
+======================*/
+h3.text-left {
+  font-family: 'Oswald', sans-serif;
+  font-size: 4em;
+  font-weight: bold;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+p.text-left {
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+@media (max-width: 575px) {
+  h3.text-left {
+    font-family: 'Oswald', sans-serif;
+    font-size: 2em;
+    font-weight: bold;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+
+  p.text-left {
+    font-family: 'Roboto Condensed', sans-serif;
+  }
+}
