@@ -10,13 +10,13 @@ export default function About() {
   return (
     <>
       <Common
-        name="About "
+        name="ABOUT "
         imgSrc={web}
         imgSrc1={web1}
         imgSrc2={web2}
         visit="/contact"
         btName="Contact Now"
-        imgStyle={{ borderRadius: '80px' }}
+        imgStyle={{ borderRadius: '80px', height: '270px' }}
       />
     </>
   );
