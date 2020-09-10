@@ -6,7 +6,11 @@ import { NavLink } from 'react-router-dom';
 const Common = (props) => {
   return (
     <>
-      <section id="about" className="d-flex align-items-left">
+      <section
+        id="about"
+        className="d-flex align-items-left"
+        style={{ backgroundColor: 'lightgrey' }}
+      >
         <div className="container">
           <div className="section-title">
             <h1 className="text-center" style={{ paddingTop: '50px', fontSize: '3em' }}>
@@ -68,10 +72,12 @@ const Common = (props) => {
                 alt="About-img"
                 style={props.imgStyle}
               />
+              <br /> <br />
             </div>
+
             <div className="col-lg-6 pt-4 pt-lg-0 content">
               <h3>
-                Our small staff answered the call to volunteer in the massive effort to save pets{' '}
+                Our small staff answered the call to volunteer in the massive effort to save pets
               </h3>
               <br />
               <p>
@@ -82,6 +88,8 @@ const Common = (props) => {
               <NavLink to={props.visit} className="btn btn-secondary">
                 {props.btName}
               </NavLink>
+              <br />
+              <br />
             </div>
           </div>
         </div>
