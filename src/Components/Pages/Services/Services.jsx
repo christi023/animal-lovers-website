@@ -17,7 +17,6 @@ export default function Services() {
             </p>
           </div>
           <br />
-
           <div className="row">
             <div className="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="fade-up">
               <div className="icon-box">
@@ -106,6 +105,8 @@ export default function Services() {
               </div>
             </div>
           </div>
+          <br />
+          <br />
         </div>
       </section>
     </>
