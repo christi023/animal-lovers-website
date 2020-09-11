@@ -27,7 +27,7 @@
 }
 
 .navbar-logo {
-  color: #fff;
+  color: red !important;
   justify-self: start;
   cursor: pointer;
   text-decoration: none;
@@ -38,6 +38,7 @@
 
 .navbar-icon {
   margin-right: 0.5rem;
+  color: red !important;
 }
 
 .nav-menu {
@@ -55,7 +56,6 @@
 }
 
 .nav-item:hover {
-  background: #cc1616 !important;
   text-decoration: none;
 }
 
@@ -66,6 +66,10 @@
   text-decoration: none;
   padding: 0.5rem 1rem;
   height: 100%;
+}
+
+.nav-links:hover {
+  color: red !important;
 }
 
 .fa-bars {
