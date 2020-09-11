@@ -10,21 +10,24 @@ import Contact from './Components/Pages/Contact/Contact';
 import Services from './Components/Pages/Services/Services';
 import Team from './Components/Pages/Team/Team';
 //import SignUp from './Components/Pages/SignUp/SignUp';
-//import Footer from './Components/Pages/Footer/Footer';
+import Footer from './Components/Pages/Footer/Footer';
 
 function App() {
   return (
-    <Router>
-      <ScrollToTop />
-      <Navbar />
-      <Switch>
-        <Route exact path="/" component={Home} />
-        <Route exact path="/about" component={About} />
-        <Route exact path="/contact" component={Contact} />
-        <Route exact path="/services" component={Services} />
-        <Route exact path="/team" component={Team} />
-      </Switch>
-    </Router>
+    <>
+      <Router>
+        <ScrollToTop />
+        <Navbar />
+        <Switch>
+          <Route exact path="/" component={Home} />
+          <Route exact path="/about" component={About} />
+          <Route exact path="/contact" component={Contact} />
+          <Route exact path="/services" component={Services} />
+          <Route exact path="/team" component={Team} />
+        </Switch>
+        <Footer />
+      </Router>
+    </>
   );
 }
 
