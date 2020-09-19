@@ -9,7 +9,7 @@ import About from './Components/Pages/About/About';
 import Contact from './Components/Pages/Contact/Contact';
 import Services from './Components/Pages/Services/Services';
 import Team from './Components/Pages/Team/Team';
-//import SignUp from './Components/Pages/SignUp/SignUp';
+import Register from './Components/Register_Login/Register';
 import Footer from './Components/Pages/Footer/Footer';
 
 function App() {
@@ -24,6 +24,7 @@ function App() {
           <Route exact path="/contact" component={Contact} />
           <Route exact path="/services" component={Services} />
           <Route exact path="/team" component={Team} />
+          <Route exact path="/sign-up" component={Register} />
         </Switch>
         <Footer />
       </Router>
