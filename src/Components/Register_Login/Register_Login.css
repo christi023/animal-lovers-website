@@ -4,20 +4,34 @@ form {
 }
 
 .form {
-  background: #0e101c;
+  background: slategray;
   max-width: 400px;
   margin: 0 auto;
 }
 
 .form-display {
-  background-color: slategrey;
+  background-image: url('../../assets/form-img.jpeg');
 }
+
+h6 .form-input-login {
+  font-size: 0.8rem;
+  margin-top: 10px;
+  color: #fff;
+  width: 80%;
+  text-align: center;
+}
+
+h6.form-input-login a {
+  text-decoration: none;
+  color: #27cdff;
+  font-weight: 600;
+}
+
 span {
   color: #bf1650;
 }
 
 span::before {
-  display: inline;
   content: '⚠ ';
 }
 
