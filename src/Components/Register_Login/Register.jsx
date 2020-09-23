@@ -17,7 +17,7 @@ export default function Register() {
     <>
       <div className="form-display">
         <form className="" onSubmit={handleSubmit(onSubmit)}>
-          <label>First name</label>
+          <label className="form-label">First name</label>
           <input
             type="text"
             name="firstName"
@@ -26,7 +26,7 @@ export default function Register() {
           />
 
           {errors.firstName && <span>This is required</span>}
-          <label>Last name</label>
+          <label className="form-label">Last name</label>
           <input
             type="text"
             name="lastName"
@@ -34,7 +34,7 @@ export default function Register() {
             ref={register({ required: true })}
           />
 
-          <label>Email</label>
+          <label className="form-label">Email</label>
           {errors.email && <span>This is required</span>}
           <input
             type="email"
@@ -43,7 +43,7 @@ export default function Register() {
             ref={register({ required: true })}
           />
 
-          <label>Password</label>
+          <label className="form-label">Password</label>
           {errors.password && <span>This is required</span>}
           <input
             type="password"
@@ -53,7 +53,7 @@ export default function Register() {
           />
           {errors.password && <span>This is required</span>}
 
-          <label>Confirm Password</label>
+          <label className="form-label">Confirm Password</label>
           {errors.password && <span>This is required</span>}
           <input
             type="password"

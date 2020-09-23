@@ -10,6 +10,7 @@ import Contact from './Components/Pages/Contact/Contact';
 import Services from './Components/Pages/Services/Services';
 import Team from './Components/Pages/Team/Team';
 import Register from './Components/Register_Login/Register';
+import Login from './Components/Register_Login/Login';
 import Footer from './Components/Pages/Footer/Footer';
 
 function App() {
@@ -25,6 +26,7 @@ function App() {
           <Route exact path="/services" component={Services} />
           <Route exact path="/team" component={Team} />
           <Route exact path="/sign-up" component={Register} />
+          <Route exact path="/login" component={Login} />
         </Switch>
         <Footer />
       </Router>
