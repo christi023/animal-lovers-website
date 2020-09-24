@@ -97,7 +97,7 @@ const Footer = () => {
               <h4>Our Newsletter</h4>
               <p>You can unsubscribe at any time.</p>
               <form action="" method="post">
-                <input type="email" name="email" />
+                <input type="email" name="email" placeholder="Your Email" />
                 <input type="submit" value="Subscribe" />
               </form>
             </div>

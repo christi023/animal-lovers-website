@@ -23,7 +23,7 @@
 }
 
 #footer .footer-top .footer-info h3 {
-  font-size: 36px;
+  font-size: 24px;
   margin: 0 0 20px 0;
   padding: 2px 0 2px 0;
   line-height: 1;
@@ -106,31 +106,27 @@
 
 #footer .footer-top .footer-newsletter form {
   margin-top: 30px;
+  padding-bottom: -2px;
   background: #fff;
-  padding: 6px 10px;
+  padding-right: 26px;
   position: relative;
   border-radius: 4px;
 }
 
 #footer .footer-top .footer-newsletter form input[type='email'] {
-  border: 0;
-  padding: 4px;
-  width: calc(100% - 110px);
+  border: 0px;
+  padding: 6px;
+  width: calc(138% - 110px);
 }
 
 #footer .footer-top .footer-newsletter form input[type='submit'] {
   position: absolute;
-  top: 0;
-  right: -2px;
-  bottom: 0;
-  border: 0;
   background: none;
   font-size: 16px;
-  padding: 0 20px;
+  padding: 5px;
   background: red;
   color: #fff;
-  transition: 0.3s;
-  border-radius: 0 4px 4px 0;
+  margin-top: 10px;
 }
 
 #footer .footer-top .footer-newsletter form input[type='submit']:hover {
