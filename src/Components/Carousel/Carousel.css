@@ -11,6 +11,8 @@ h3.text-left {
   color: white;
   text-transform: uppercase;
   letter-spacing: 2px;
+  margin-bottom: 9em !important;
+  text-align: center !important;
 }
 
 p.text-left {
