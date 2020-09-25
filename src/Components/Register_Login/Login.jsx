@@ -9,31 +9,16 @@ export default function Register() {
 
   const onSubmit = (data, e) => {
     e.target.reset(); // reset after form submit
+    console.log(data);
+    alert('You are now logged in');
   };
 
-  console.log(errors);
+  //console.log(errors);
 
   return (
     <>
       <div className="form-display">
         <form className="" onSubmit={handleSubmit(onSubmit)}>
-          <label className="form-label">First name</label>
-          <input
-            type="text"
-            name="firstName"
-            placeholder="First Name"
-            ref={register({ required: true })}
-          />
-
-          {errors.firstName && <span>This is required</span>}
-          <label className="form-label">Last name</label>
-          <input
-            type="text"
-            name="lastName"
-            placeholder="Last Name"
-            ref={register({ required: true })}
-          />
-
           <label className="form-label">Email</label>
           {errors.email && <span>This is required</span>}
           <input

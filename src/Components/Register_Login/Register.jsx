@@ -9,9 +9,11 @@ export default function Register() {
 
   const onSubmit = (data, e) => {
     e.target.reset(); // reset after form submit
+    console.log(data);
+    alert('You are now registered');
   };
 
-  console.log(errors);
+  //console.log(errors);
 
   return (
     <>
@@ -66,7 +68,10 @@ export default function Register() {
           <input type="submit" />
         </form>
         <h6 className="form-input-login">
-          Already have an account? Login <NavLink to="/login">Click</NavLink>
+          Already have an account? Login
+          <NavLink className="link" to="/login">
+            Click
+          </NavLink>
         </h6>
       </div>
       <br />

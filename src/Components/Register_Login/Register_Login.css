@@ -21,26 +21,26 @@ form {
 }
 
 .form-label {
-  color: white;
+  color: black;
   font-size: 1.2em;
 }
 
-h6 .form-input-login {
-  font-size: 0.8rem;
+.form-input-login {
+  font-size: 1rem;
   margin-top: 2px;
   color: #fff;
-  width: 80%;
+  width: 100%;
   text-align: center;
 }
 
-h6.form-input-login a {
+.form-input-login .link {
   text-decoration: none;
   color: red;
   font-weight: 800;
 }
 
 span {
-  color: #bf1650;
+  color: rgb(168, 7, 7);
 }
 
 input {
@@ -67,7 +67,7 @@ label {
 
 button[type='submit'],
 input[type='submit'] {
-  background: #ec5990;
+  background: #212020;
   color: white;
   text-transform: uppercase;
   border: none;
@@ -80,7 +80,7 @@ input[type='submit'] {
 
 button[type='submit']:hover,
 input[type='submit']:hover {
-  background: #bf1650;
+  background: #494848;
 }
 
 button[type='submit']:active,
